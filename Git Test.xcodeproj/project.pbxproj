@@ -14,6 +14,7 @@
 		AC11B2441B12BBE600C775B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11B2431B12BBE600C775B3 /* Images.xcassets */; };
 		AC11B2471B12BBE600C775B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC11B2451B12BBE600C775B3 /* LaunchScreen.xib */; };
 		AC11B2531B12BBEA00C775B3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11B2521B12BBEA00C775B3 /* Git_TestTests.m */; };
+		AC11B25E1B12C8E700C775B3 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11B25D1B12C8E700C775B3 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AC11B24C1B12BBE600C775B3 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC11B2511B12BBEA00C775B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC11B2521B12BBEA00C775B3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AC11B25C1B12C8E700C775B3 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		AC11B25D1B12C8E700C775B3 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				AC11B2431B12BBE600C775B3 /* Images.xcassets */,
 				AC11B2451B12BBE600C775B3 /* LaunchScreen.xib */,
 				AC11B2361B12BBE600C775B3 /* Supporting Files */,
+				AC11B25C1B12C8E700C775B3 /* CCTest.h */,
+				AC11B25D1B12C8E700C775B3 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC11B23F1B12BBE600C775B3 /* ViewController.m in Sources */,
+				AC11B25E1B12C8E700C775B3 /* CCTest.m in Sources */,
 				AC11B23C1B12BBE600C775B3 /* AppDelegate.m in Sources */,
 				AC11B2391B12BBE600C775B3 /* main.m in Sources */,
 			);
